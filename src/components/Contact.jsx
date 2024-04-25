@@ -1,7 +1,8 @@
 import Message from "./Message";
 import Video from "./Video";
 import Navbar from "./Navbar";
-import SocialMediaIcons from "./SocialMedia"; // Corrected the component name for consistency
+import SocialMediaIcons from "./SocialMedia";
+import contact from "../assets/contactme.png";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
           <div className="m-4 lg:m-8 z-10">
             <div className="bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 rounded-full p-4">
               <img
-                src="src/assets/contactme.png"
+                src={contact}
                 className="w-80 h-80 rounded-full"
                 alt="Contact Me"
               />
