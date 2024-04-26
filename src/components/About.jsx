@@ -1,19 +1,20 @@
 import Navbar from "./Navbar";
 import Video from "./Video";
+import hello from "../assets/hello.png";
 
 function About() {
   return (
     <>
       <Navbar />
       <div className="flex justify-center align-middle">
-        <Video />
+        <Video className="absolute inset-0 h-full w-full object-cover" />
         <div className="text-white container max-w-4xl mt-44 px-4">
           <h1 className="text-white text-6xl font-bold text-center mb-6">
             About Me...
           </h1>
           <div className="flex flex-col md:flex-row bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 rounded-lg shadow-lg overflow-hidden">
             <div
-              className="md:w-4/5 p-6 text-justify" // Changed this from md:w-5/6 to md:w-4/5
+              className="md:w-4/5 p-6 text-justify"
               style={{ fontFamily: "monospace", lineHeight: "1.75" }}
             >
               <p className="text-2xl">
@@ -28,11 +29,7 @@ function About() {
               </p>
             </div>
             <div className="md:w-2/5 p-4 flex items-center justify-center">
-              <img
-                src="src/assets/hello.png"
-                className="w-60 h-60 rounded-lg"
-                alt="hello"
-              />
+              <img src={hello} className="w-60 h-60 rounded-lg" alt="hello" />
             </div>
           </div>
         </div>

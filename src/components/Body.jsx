@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Type";
 import "../App.css";
 import DownloadButton from "./DownloadButton";
+import laptop from "../assets/laptop.png";
 
 function Body() {
   useEffect(() => {
@@ -43,11 +44,7 @@ function Body() {
         </Container>
 
         <div className="bg-gradient-to-r from-purple-600 via-purple-700 to-purple-800 rounded-full p-4">
-          <img
-            src="src/assets/laptop.png"
-            className="w-80 h-80 rounded-full"
-            alt="Laptop"
-          />
+          <img src={laptop} className="w-80 h-80 rounded-full" alt="Laptop" />
         </div>
       </div>
     </div>

@@ -1,3 +1,5 @@
+import videoBackground from "../assets/bg.mp4";
+
 function Video() {
   return (
     <div>
@@ -7,7 +9,7 @@ function Video() {
         loop
         muted
       >
-        <source src="src\assets\bg.mp4" />
+        <source src={videoBackground} />
       </video>
     </div>
   );
