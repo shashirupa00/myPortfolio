@@ -5,10 +5,10 @@ export const allExperience = [
     role: "Software Engineer",
     location: "Hyderabad, India",
     description: [
-      "Tech Stack: Node.js, Express.js, ReactJS, MySQL, MongoDB, Microservices",
-      "Implemented asynchronous messaging patterns for a pub/sub system, improving system responsiveness.",
-      "Contributed to web scraping using ReactJS, MySQL, and Express.js, enhancing data retrieval efficiency. Optimized frontend JavaScript for a faster page load speed improvement, providing a superior user experience.",
+      "Tech Stack: Node.js, Express.js, ReactJS, MongoDB",
+      "Optimized frontend JavaScript for a faster page load speed improvement, providing a superior user experience.",
       "Architected a microservices system using Node.js and Express.js, leading to faster API responses.",
+      "Implemented asynchronous messaging patterns for a pub/sub system, improving system responsiveness.",
       "Utilized NoSQL for MongoDB to boost database performance by 60%, maintained regular backups for data security.",
     ],
   },
@@ -18,10 +18,10 @@ export const allExperience = [
     role: "Software Engineer",
     location: "Hyderabad, India",
     description: [
-      "Tech Stack: React, Typescript, Redux, GraphQL",
+      "Tech Stack: React, Typescript, Redux",
       "Designed and implemented multiple new features for the enterprise-level logistics analytics dashboard.",
       "Actively contributed to the maintenance of an internal UI library tailored specifically for logistics analytics.",
-      "Developed functionalities in React, and GraphQL to expedite privacy reviews, reducing turnaround times by 30%.",
+      "Developed functionalities in React to expedite privacy reviews, reducing turnaround times by 30%.",
     ],
   },
   {
